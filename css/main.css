@@ -82,13 +82,6 @@ h1, h2, h3 {
   position: relative;
 }
 
-.waiting {
-  position: absolute;
-  -webkit-transform: translateY(50%);
-  -ms-transform: translateY(50%);
-  transform: translateY(50%);
-}
-
 a.h1 {
   color: #222;
 }
@@ -148,6 +141,13 @@ a.h1:hover, a.h1:focus {
 
    /* Larger than tablet */
    @media only screen and (min-width: 75rem) {
+     .waiting {
+       position: absolute;
+       -webkit-transform: translateY(50%);
+       -ms-transform: translateY(50%);
+       transform: translateY(50%);
+     }
+     
      html {
          background-image: linear-gradient(
            rgba(255, 255, 255, 0.5),
